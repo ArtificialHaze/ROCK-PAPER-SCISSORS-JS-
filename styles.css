@@ -1,0 +1,63 @@
+*,
+*::after,
+*::before {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #f1f1f1;
+  font-family: monospace, sans-serif;
+}
+
+h1 {
+  font-size: 2rem;
+  text-align: center;
+  padding-top: 100px;
+}
+
+p {
+  font-size: 1.2rem;
+  text-align: center;
+  margin: 0.5rem;
+}
+
+.btns {
+  display: flex;
+  justify-content: center;
+  margin: 20px;
+}
+.btns button {
+  border: none;
+  font-size: 3rem;
+  margin: 0rem 0.5rem;
+  padding: 0.5rem;
+  cursor: pointer;
+  border-radius: 6px;
+  opacity: 1;
+  transition: all 275ms ease-in-out;
+}
+.btns button:hover {
+  opacity: 0.75;
+}
+.btns #rock {
+  background-color: #ff0000;
+}
+.btns #paper {
+  background-color: #2196f3;
+}
+.btns #scissor {
+  background-color: #4caf50;
+}
+
+#score #user-score {
+  color: #2196f3;
+}
+#score #pc-score {
+  color: crimson;
+}
+
+#result {
+  margin: 25px;
+}/*# sourceMappingURL=styles.css.map */
